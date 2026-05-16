@@ -1,17 +1,11 @@
-# CODEOWNERS for AMD-AGI/HF_PEFT_GPT_OSS
-# Per AMD-AGI Repository Standards §2.1.4
-# https://amd.atlassian.net/wiki/spaces/AIMA/pages/1665353888/AMD-AGI+Repository+Standards
-#
-# Order matters: the LAST matching pattern wins for a given file.
+# Global catch-all
+* @AMD-AGI/tas
 
-# Global catch-all: project team owns everything by default.
-*                       @AMD-AGI/brain-tio
-
-# Governance & CI: stricter review (leads + TPM).
-/.github/               @AMD-AGI/brain-tio-leads @AMD-AGI/brain-tpm
-/CODEOWNERS             @AMD-AGI/brain-tio-leads
-/.github/CODEOWNERS     @AMD-AGI/brain-tio-leads
-/README.md              @AMD-AGI/brain-tio-leads @AMD-AGI/brain-tpm
-/CONTRIBUTING.md        @AMD-AGI/brain-tio-leads @AMD-AGI/brain-tpm
-/SECURITY.md            @AMD-AGI/brain-tio-leads @AMD-AGI/brain-tpm
-/LICENSE                @AMD-AGI/brain-tio-leads @AMD-AGI/brain-tpm
+# Stricter review for governance + CI
+/.github/         @AMD-AGI/tas @AMD-AGI/brain-tpm
+/CODEOWNERS       @AMD-AGI/tas
+/.github/CODEOWNERS @AMD-AGI/tas
+/README.md        @AMD-AGI/tas @AMD-AGI/brain-tpm
+/CONTRIBUTING.md  @AMD-AGI/tas @AMD-AGI/brain-tpm
+/SECURITY.md      @AMD-AGI/tas @AMD-AGI/brain-tpm
+/LICENSE          @AMD-AGI/tas @AMD-AGI/brain-tpm
